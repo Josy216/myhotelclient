@@ -4,7 +4,7 @@ import "./user.css";
 
 function UserAdmin() {
   const [users, setUsers] = useState([]);
-  const [deleteId, setDeleteId] = useState(null); // for overlay confirmation
+  const [deleteId, setDeleteId] = useState(null); 
   const navigate = useNavigate();
 
   // Fetch users from API
